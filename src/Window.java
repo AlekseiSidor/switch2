@@ -7,6 +7,7 @@ public class Window extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         MyPanel panel = new MyPanel();
         getContentPane().add(panel);
+        pack();
     }
 
     public void run(){
